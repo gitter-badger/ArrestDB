@@ -25,8 +25,10 @@ Or, if you only want to get one customer, then you would append the customer `id
 Edit `index.php` and change the `$dsn` variable located at the top, here are some examples:
 
 - SQLite: `$dsn = 'sqlite://./path/to/database.sqlite';`
-- MySQL: `$dsn = 'mysql://[user[:pass]@]host[:port]/db/;`
+- MySQL: `$dsn = 'mysql://[user[:pass]@]host[:port]/db/';`
 - PostgreSQL: `$dsn = 'pgsql://[user[:pass]@]host[:port]/db/;`
+
+Databases must not contain dashes.
 
 If you want to restrict access to allow only specific IP addresses, add them to the `$clients` array:
 
