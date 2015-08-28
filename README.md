@@ -1,5 +1,7 @@
 #ArrestDB
 
+[![Join the chat at https://gitter.im/jamespsterling/ArrestDB](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jamespsterling/ArrestDB?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ArrestDB is a "plug-n-play" RESTful API for SQLite, MySQL and PostgreSQL databases.
 
 ArrestDB provides a REST API that maps directly to your database stucture with no configuation.
